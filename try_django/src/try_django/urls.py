@@ -28,7 +28,7 @@ urlpatterns = [
     re_path(r'^home?/$',home_page),
     path('contact/', contact_page),
     path('about/', about_page),
-path('blog/', blog_post_detail_page),
+    path('blog/', blog_post_detail_page),
 
 
 ]
